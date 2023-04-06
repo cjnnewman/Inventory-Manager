@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/Users/calebnewman/Documents/GitHub/Inventory Manager/cmake-build-debug",
-		"source" : "/Users/calebnewman/Documents/GitHub/Inventory Manager"
+		"build" : "/Users/calebnewman/Documents/GitHub/Inventory-Manager/cmake-build-debug",
+		"source" : "/Users/calebnewman/Documents/GitHub/Inventory-Manager"
 	},
 	"version" : 
 	{
