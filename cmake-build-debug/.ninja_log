@@ -1,0 +1,8 @@
+# ninja log v5
+3	244	1678736190622047935	CMakeFiles/InventoryManager.dir/InventoryManager.cpp.o	b82e03759fd13f5e
+1	255	1677966742602349172	CMakeFiles/InventoryManager.dir/mainmenu.cpp.o	ad9399b7b1510616
+1	47	1679429259632694830	build.ninja	ac9017690a60ee66
+244	280	1678736190659806123	InventoryManager	d60915a55d535c07
+4	214	1679429263681760562	CMakeFiles/InventoryManager.dir/mainmenu.cpp.o	643ea0ebce9027dc
+4	236	1679429263704192417	CMakeFiles/InventoryManager.dir/InventoryManager.cpp.o	49bcdc8be12d0335
+236	272	1679429263741658662	InventoryManager	d60915a55d535c07
