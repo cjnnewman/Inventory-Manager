@@ -1,4 +1,4 @@
-# COP3003 - Project Title: Inventory-Manager]
+# COP3003 - Project Title: Inventory-Manager
 Developer: Caleb Newman
 
 Description: This program is a basic inventory management program. It utilizes C++ and SqLite3 to perform
