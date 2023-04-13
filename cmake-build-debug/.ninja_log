@@ -1,8 +1,13 @@
 # ninja log v5
-4	236	1679429263704192417	CMakeFiles/InventoryManager.dir/InventoryManager.cpp.o	49bcdc8be12d0335
-4	214	1679429263681760562	CMakeFiles/InventoryManager.dir/mainmenu.cpp.o	643ea0ebce9027dc
-1	47	1680742737611012238	build.ninja	ac9017690a60ee66
-236	272	1679429263741658662	InventoryManager	d60915a55d535c07
-3	232	1680742741734111408	CMakeFiles/InventoryManager.dir/mainmenu.cpp.o	832f3338a931c181
-3	256	1680742741759269413	CMakeFiles/InventoryManager.dir/InventoryManager.cpp.o	eb5a613506f10edf
-256	291	1680742741795946219	InventoryManager	d60915a55d535c07
+226	260	1681341833518502716	InventoryManager	e0efbb7d38c2200
+3	212	1681341789275104213	CMakeFiles/InventoryManager.dir/SQLTable.cpp.o	3a07ed9b086d2304
+0	49	1681342088237121693	build.ninja	3d7f6c38455897f2
+3	221	1681340985406600468	CMakeFiles/InventoryManager.dir/mainmenu.cpp.o	832f3338a931c181
+3	226	1681341833483176606	CMakeFiles/InventoryManager.dir/InventoryManager.cpp.o	eb5a613506f10edf
+3	218	1681342455277224144	CMakeFiles/InventoryManager.dir/mainmenu.cpp.o	832f3338a931c181
+3	255	1681342455315436228	CMakeFiles/InventoryManager.dir/inventorylogging.cpp.o	f8d92528cb5bb917
+3	280	1681342455339558819	CMakeFiles/InventoryManager.dir/InventoryManager.cpp.o	eb5a613506f10edf
+280	321	1681342455382397512	InventoryManager	445cac117bc9e2c4
+4	249	1681342758960536437	CMakeFiles/InventoryManager.dir/inventorylogging.cpp.o	f8d92528cb5bb917
+3	277	1681342758987532177	CMakeFiles/InventoryManager.dir/InventoryManager.cpp.o	eb5a613506f10edf
+277	314	1681342759025870753	InventoryManager	445cac117bc9e2c4
