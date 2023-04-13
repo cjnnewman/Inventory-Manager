@@ -9,4 +9,4 @@ Reason: This project was developed due to the lack of a proper inventory managem
 workplace. The project will continue development as I learn more about programming and continue my education
 in Software Engineering, while being deployed and utilized at my job.
 
-Maintainers: Caleb Newamn
+Maintainers: Caleb Newman
