@@ -1,1 +1,12 @@
-some test text	1681342760
+INSERT INTO Inventory VALUES(1, 'hats', 300);	Wed Apr 12 20:31:23 2023
+
+INSERT INTO Inventory VALUES(3, 'gloves', 93);	Wed Apr 12 20:31:35 2023
+
+DELETE FROM Inventory WHERE SKU = 3	Wed Apr 12 20:32:18 2023
+
+INSERT INTO Inventory VALUES(2, 'hatties', 3);	Wed Apr 12 20:32:57 2023
+
+ERROR: 85	Wed Apr 12 20:36:24 2023
+
+ERROR: 85	Wed Apr 12 20:36:49 2023
+

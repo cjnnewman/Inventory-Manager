@@ -2,7 +2,6 @@
 #include <sqlite3.h>
 #include "mainmenu.cpp"
 #include "SQLTable.cpp"
-#include "inventorylogging.cpp"
 
 using std::cout;
 using std::cin;
@@ -12,8 +11,6 @@ using std::endl;
 int main(){
     MainMenu mainMenu;
     SQLTable primaryTable;
-    InventoryLogger primaryLogger;
-
 
     primaryTable.openDatabaseConnection();
     primaryTable.checkOrCreateTable();
@@ -35,9 +32,6 @@ int main(){
                 break;
             case 5:
                 return 0;
-                break;
-            case 6:
-                primaryLogger.createLogEntry();
                 break;
             default:
                 cout << "An error occurred, you may need to check your input!";

@@ -13,7 +13,7 @@ private:
 
             cout << "Enter your selection: ";
             cin >> userMainMenuSelection;
-            while (userMainMenuSelection < 1 || userMainMenuSelection > 6){
+            while (userMainMenuSelection < 1 || userMainMenuSelection > 5){
                 cout << "Invalid selection, try again: ";
                 cin >> userMainMenuSelection;
             }

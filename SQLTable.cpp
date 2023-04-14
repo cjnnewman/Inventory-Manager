@@ -1,6 +1,7 @@
 #include <sqlite3.h>
 #include <string>
 #include <iostream>
+#include "inventorylogging.cpp"
 
 using std::string;
 using std::cout;
@@ -8,7 +9,9 @@ using std::cin;
 
 class SQLTable {
 public:
-        void openDatabaseConnection(){
+    InventoryLogger primaryLogger;
+
+    void openDatabaseConnection(){
         sqlite3* DB;
         char* messageError;
         int exit = sqlite3_open("boginventory.db", &DB);
@@ -58,6 +61,7 @@ public:
             std::cerr << "Error creating table." << "\n";
         } else
             std::cout << "Table created successfully!" << "\n";
+
     }
 
     void viewCurrentInventory() {
@@ -94,8 +98,11 @@ public:
         exit = sqlite3_exec(DB, sql.c_str(), NULL, nullptr, &messageError);
         if (exit != SQLITE_OK) {
             std::cerr << "Error adding data" << "\n";
-        } else
+            primaryLogger.createLogErrorEntry(std::to_string(*messageError));
+        } else {
             std::cout << "Data added successfully!" << "\n";
+            primaryLogger.createLogEntry(sql);
+        }
 
     }
 
@@ -114,9 +121,10 @@ public:
         exit = sqlite3_exec(DB, sql.c_str(), NULL, nullptr, &messageError);
         if (exit != SQLITE_OK) {
             std::cerr << "Error deleting product" << "\n";
-        } else
+        } else {
             std::cout << "Product deleted successfully!" << "\n";
-
+            primaryLogger.createLogEntry(sql);
+        }
     }
 
     void updateProductQuantity() {
@@ -138,7 +146,9 @@ public:
         exit = sqlite3_exec(DB, sql.c_str(), NULL, nullptr, &messageError);
         if (exit != SQLITE_OK) {
             std::cerr << "Error updating quantity." << "\n";
-        } else
+        } else {
             std::cout << "Quantity updated successfully!" << "\n";
+            primaryLogger.createLogEntry(sql);
+        }
     }
 };
