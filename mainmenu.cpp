@@ -4,6 +4,8 @@ using std::cout;
 using std::cin;
 using std::string;
 
+// MainMenu class handles displaying the menu to the user
+// and getting user input for their selection.
 class MainMenu{
 private:
     class MainMenuVerification {
@@ -36,7 +38,7 @@ public:
         cout << "\tWhat would you like to do?\n\n";
         cout << "1. View Current Inventory \t3. Update Quantity\n";
         cout << "2. Add a Product \t\t4. Remove a Product\n";
-        cout << "5. Quit \t\t6. Test Inventory Log\n\n";
+        cout << "5. Quit \n\n";
 
         return menuVerificationInstance.getUserSelectionFromMainMenu();
     }
