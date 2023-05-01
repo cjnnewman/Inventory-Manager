@@ -10,3 +10,5 @@ workplace. The project will continue development as I learn more about programmi
 in Software Engineering, while being deployed and utilized at my job.
 
 Maintainers: Caleb Newman
+
+![InventoryManager Demo](https://user-images.githubusercontent.com/11395098/235537484-358e504b-b241-41ed-bcac-b71b376b66ad.gif)
