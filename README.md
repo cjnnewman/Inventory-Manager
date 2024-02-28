@@ -1,4 +1,4 @@
-[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/cjnnewman/Inventory-Manager/badge)](https://securityscorecards.dev/viewer/?uri=github.com/cjnnewman/Inventory-Manager)
+[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/cjnnewman/Inventory-Manager/badge)](https://securityscorecards.dev/viewer/?uri=github.com/cjnnewman/Inventory-Manager) [![OpenSSF Best Practices](https://www.bestpractices.dev/projects/8467/badge)](https://www.bestpractices.dev/projects/8467)
 # COP3003 - Project Title: Inventory-Manager
 Developer: Caleb Newman
 
